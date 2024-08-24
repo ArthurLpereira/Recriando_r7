@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: pink;
+}
+
+header{
+    background-color: #218EE1;
+    height: 56px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+#logo_r7{
+    margin: 8px 0px 0px 32px;
+    width:36px;
+    height: 40px;
+}
+
+#abrir_menu_lado{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap:8px;
+    cursor: pointer;
+}
+
+#txt_menu_abrir{
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 38px;
+    gap: 16px;
+}
+
+ul a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#logo_playplus{
+    width: 91px;
+    height: 24px;
+}
+#play_plus{
+    display: flex;
+    align-items: center ;
+    margin-left: 240px;
+}
+
+/* #icons_redes_sociais i{
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 6px;
+} */
+
+#icons_redes_sociais{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    gap: 10px;
+}
+
+#entrar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+#entrar i,  #icons_redes_sociais i{
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 6px;
+}
+
+#entrar a{
+    color: white;
+    text-decoration: none;
+}
