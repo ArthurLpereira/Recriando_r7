@@ -165,4 +165,31 @@ ul a{
     gap: 5px;
 }
 
+.seis_noticias_juntas{
+    width: 80%;
+    margin: 12px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 110px; */
+    
+}
 
+.seis_noticias_juntas img{
+    border-radius: 4%;
+}
+
+.seis_noticias_juntas a{
+    display: flex;
+    gap: 10px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    text-wrap: wrap;
+}
+.seis_noticias_juntas article{
+    display: flex;
+   flex-direction: row;
+   margin: 20px;
+}
