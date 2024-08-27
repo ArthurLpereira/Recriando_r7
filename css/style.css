@@ -41,6 +41,7 @@ header{
 nav{
     display: flex;
     align-items: center;
+    width: 63%;
 }
 ul{
     display: flex;
@@ -54,7 +55,10 @@ ul a{
     text-transform: uppercase;
     text-decoration: none;
 }
-
+/* nav ul li:hover{
+    border-bottom: blue;
+    background-color: aquamarine;
+} */
 #logo_playplus{
     width: 91px;
     height: 24px;
@@ -62,7 +66,7 @@ ul a{
 #play_plus{
     display: flex;
     align-items: center ;
-    margin-left: 240px;
+    /* margin-left: 400px; */
 }
 
 /* #icons_redes_sociais i{
@@ -192,4 +196,25 @@ ul a{
     display: flex;
    flex-direction: row;
    margin: 20px;
+}
+
+#tres_noticias_juntas{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+#tres_noticias_juntas div{
+    display: flex;
+    flex-direction: column;
+}
+#tres_noticias_juntas a{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    text-wrap: wrap;
 }
