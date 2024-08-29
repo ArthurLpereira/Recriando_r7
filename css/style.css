@@ -53,7 +53,6 @@ nav{
 ul{
     display: flex;
     list-style: none;
-    margin-left: px;
     gap: 16px;
 }
 
@@ -89,7 +88,6 @@ ul a{
     margin-left: 45px;
     gap: 3px;
 }
-
 #entrar{
     display: flex;
     justify-content: end;
@@ -216,7 +214,7 @@ ul a{
 #tres_noticias_juntas div{
     display: flex;
     flex-direction: column;
-    width: 50%;;
+    width: 50%;
 }
 #tres_noticias_juntas a{
     display: flex;
@@ -237,4 +235,40 @@ border-radius: 5px;
     width: 1px;
     background-color: #fff;
     margin: 15px 20px 0 50px;
+}
+
+.oito_noticias_juntas{
+    width: 78%;
+    margin: 32px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.oito_noticias_juntas div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.oito_noticias_juntas div article figure img{
+border-radius: 5px;
+}
+
+.oito_noticias_juntas div article a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    gap: 12px;
+}
+
+#Previsao_do_tempo{
+    display: flex;
+    gap: 50px;
+}
+
+#meio_tempo{
+    display: flex;
 }
