@@ -143,7 +143,7 @@
                 </article>
             </div>
             <div>
-                <article>
+                <article id="mujica">
                     <a href="https://noticias.r7.com/internacional/nao-me-encaixo-no-mundo-de-hoje-uma-entrevista-com-o-ex-presidente-uruguaio-jose-mujica-27082024/">
                         <figure><img src="./img/ex_presidente_uruguai.avif" alt="Foto do ex presidente do uruguai" width="350.66" height="197.24"></figure>
                         <p>José Mujica, ex-presidente do Uruguai:'Não me encaixo no mundo de hoje'</p>
@@ -216,32 +216,42 @@
             
             <div id="comeco_tempo">
                 <a href="https://tempo.r7.com/sp/sao-paulo" target="_blank">
-                    <figure><img src="./img/r7_tempo.svg" alt="Logo do r7 tempo" width="100px" height="23px"></figure>
+                    <figure><img src="./img/r7_tempo.svg" alt="Logo do r7 tempo" width="100px" height="23px" id="logoR7Tempo"></figure>
                 </a>
             </div>
 
-            <div id="meio_tempo">
+            <div id="sp_tempo_agora">
                 <i class="fa-solid fa-location-dot"></i>
-                São paulo - SP
+                <p>São paulo - SP</p>
                 <i class="fa-solid fa-chevron-right"></i>
 
-                <p>Tempo <span>agora</span></p>
+                <p>Tempo <span id="agora">agora:</span></p>
+            </div>
                 
-                <div id="temperatura_tempo">
-                    <p>20°</p>
-                    <p>24°</p>
-                    <p>10°</p>
-                </div>
-
-                <img src="./img/sol.png" alt="Imagem de um Sol" width="60px" height="60px">
-                <p>Sol</p>
-
-                <div id="final_tempo">
-                    <a href="https://tempo.r7.com/sp/sao-paulo">
-                        <p>Previsão completa</p>
-                    </a>
+            <div id="temperatura_tempo">
+                <p id="num_maior">29°</p>
+                <div id="menores_num">
+                    <p class="nums_menor_negrito">24°</p>
+                    <p class="nums_menor">10°</p>
                 </div>
             </div>
+            
+            <div id="solar">
+                <img src="./img/sol.png" alt="Imagem de um Sol" width="60px" height="60px">
+                <p>Sol</p>
+            </div>
+            
+            <div id="final_tempo">
+                <a href="https://tempo.r7.com/sp/sao-paulo">
+                    <p>Previsão completa</p>
+                </a>
+            </div>
+
+        </section>
+
+        <section id="Brasilia">
+            <p>R7 Brasilia</p>
+            <span><hr></span>
         </section>
     </main>
 </body>

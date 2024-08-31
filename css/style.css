@@ -206,10 +206,11 @@ ul a{
 }
 
 #tres_noticias_juntas{
-    width: 78%;
+    width: 80%;
     display: flex;
     align-items: center;
     margin: 20px auto;
+    gap: 20px;
 }
 #tres_noticias_juntas div{
     display: flex;
@@ -230,6 +231,9 @@ ul a{
 border-radius: 5px;
 }
 
+#mujica{
+   margin-top: 20px;
+}
 #barra_nav2{
     height: 30px;
     width: 1px;
@@ -266,9 +270,85 @@ border-radius: 5px;
 
 #Previsao_do_tempo{
     display: flex;
+    background-color: #F4F4F4;
+    align-items: center;
+    width: 78%;
+    height: 68px;
+    margin: 30px auto 0;
     gap: 50px;
+    border-radius: 5px;
 }
 
-#meio_tempo{
+#comeco_tempo{
+    margin: 3px 0px 0 2px;
     display: flex;
+    align-items: center;
+    justify-content: start;
 }
+#Previsao_do_tempo #logoR7Tempo {
+    background-color: white;
+    padding: 20px;
+}
+
+#sp_tempo_agora{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#sp_tempo_agora i{
+    font-size:x-large;
+}
+
+#sp_tempo_agora p{
+    font-size: 18px;
+}
+
+#agora{
+    font-weight: bold;
+}
+
+#temperatura_tempo{
+    display: flex;
+    gap: 8px;
+}
+
+#num_maior{
+    font-weight: 500;
+    font-size: 48px;
+    color: #333;
+}
+
+#menores_num{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nums_menor_negrito{
+    font-weight: 600;
+}
+
+.nums_menor{
+    font-weight: 300;
+}
+
+#solar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#final_tempo {
+background-color: white;
+margin: 0px 2px 0 0px;
+padding: 10px;
+}
+
+#final_tempo a{
+    text-decoration: none;
+    color: #218EE1;
+    text-align: center;
+   font-size: 16px;
+}
+
