@@ -20,6 +20,7 @@ header{
     top: 0;
 }
 
+
 #logo_r7{
     margin: 8px 0px 0px 32px;
     width:36px;
@@ -205,19 +206,19 @@ ul a{
    margin: 20px;
 }
 
-#tres_noticias_juntas{
+.tres_noticias_juntas{
     width: 80%;
     display: flex;
     align-items: center;
     margin: 20px auto;
     gap: 20px;
 }
-#tres_noticias_juntas div{
+.tres_noticias_juntas div{
     display: flex;
     flex-direction: column;
     width: 50%;
 }
-#tres_noticias_juntas a{
+.tres_noticias_juntas a{
     display: flex;
     flex-direction: column;
     color: #333;
@@ -227,7 +228,7 @@ ul a{
     text-wrap: wrap;
 }
 
-#tres_noticias_juntas div figure img{
+.tres_noticias_juntas div figure img{
 border-radius: 5px;
 }
 
@@ -352,3 +353,124 @@ padding: 10px;
    font-size: 16px;
 }
 
+.titulos_secoes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    margin: 60px auto 0;
+}
+.titulos_secoes a {
+    font-size: 48px;
+    text-decoration: none;
+    text-align: start;
+    color: #556373;
+    font-weight: 300;
+}
+
+.titulos_secoes hr{
+    flex-grow: 1;
+    height: 1px;
+    border: none;
+    background-color: #556373;
+}
+
+.linha_botao_depois_das_secoes{
+    width: 80%;
+    margin: 50px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.linha_botao_depois_das_secoes hr{
+    flex-grow: 1;
+    height: 1px;
+    border: none;
+    background-color: #556373;
+}
+
+.linha_botao_depois_das_secoes a{
+    /* width: 120px;
+    height: 38px; */
+    padding: 12px;
+    background-color: #556373;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Paralimpiadastxt{
+    color: #599976;
+}
+
+#ParalimpiadasHR,#HR_final_paralimpiadas,#a_final_paralimpiadas{
+    background-color: #599976;
+}
+
+#cinco_imagens_paraolimpiadas{
+    width: 80%;
+    margin: 50px auto 0;
+    display: flex;
+    gap: 25px;
+}
+
+/* #cinco_imagens_paraolimpiadas div{
+
+}*/
+
+#cinco_imagens_paraolimpiadas div article{
+margin-top: 10px;
+} 
+
+#cinco_imagens_paraolimpiadas div article a{
+display: flex;
+text-decoration: none;
+font-size: 14px;
+color: #333;
+font-weight: 600;
+gap: 5px;
+}
+
+#cinco_imagens_paraolimpiadas div article a figure img{
+border-radius: 5px;
+}
+
+#lidia{
+    display: flex;
+    flex-direction: column;
+}
+
+#lidia p{
+font-size: 18px;
+}
+
+
+#Dramarturgia{
+    color: #4766AC;
+}
+
+#DramarturgiaHR,#HR_final_dramarturgia,#a_final_dramarturgia{
+    background-color: #4766AC;
+}
+#Dramarturgia_quatro_noticias{
+    width: 80%;
+    display: flex;
+    margin: 50px auto 0;
+    gap: 30px;
+}
+
+#Dramarturgia_quatro_noticias article a figure img{
+border-radius: 5px;
+width: 232px; ;
+height: 130px;
+}
+
+#Dramarturgia_quatro_noticias article a{
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+}
