@@ -4,9 +4,9 @@
     margin: 0px;
     font-family: "Open Sans", sans-serif;
 }
-/* body{
-    /* background-color: pink; 
-} */
+html{
+    height: 100%;
+}
 
 header{
     background-color: #218EE1;
@@ -18,6 +18,7 @@ header{
     font-size: 14px;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 
 
@@ -111,7 +112,7 @@ ul a{
     text-decoration: none;
 }
 
-.texto_cinza{
+.texto_cinza, #texto_cinza_transito,#texto_cinza_record_news{
     background-color: #EDEDED;
     display: flex;
     justify-content:start;
@@ -143,7 +144,7 @@ ul a{
     margin-left: 30px;
 }
 
-.texto_cinza a{
+.texto_cinza a,#texto_cinza_transito a, #texto_cinza_record_news a{
     text-decoration: none;
 }
 
@@ -479,4 +480,48 @@ height: 130px;
     color: #333;
     font-weight: 600;
     text-decoration: none;
+}
+
+#duas_imagens{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+#duas_imagens figure img{
+border-radius: 5px;
+position: absolute;
+
+}
+
+#duas_imagens p{
+position: relative;
+color: white;
+font-weight: 600;
+top: 245px;
+}
+#duas_imagens a{
+    text-decoration: none;
+}
+#crianca_escola{
+    width: 480px;
+    font-size: 20px;
+}
+
+#serpente_intimo{
+    width: 195px;
+    font-size: 14px;
+}
+
+#img_time{
+    filter: grayscale(80%);
+}
+
+#texto_cinza_transito{
+    margin-top: 50px;
+}
+
+#texto_cinza_record_news{
+    margin-top: 300px;
 }
